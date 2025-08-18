@@ -6,16 +6,80 @@
     <title>Document</title>
   </head>
   <body>
-    <header></header>
-    <nav>
+    <header><img src="" alt=""></header>
+    <nav><div><a href=""></a><a href=""></a><a href=""></a></div>
+            <div><a href=""></a></div>
       <ul>
         <li>Home</li>
         <li>News</li>
-        <li>Weather</li>
-        <li>About</li>
+        <li>Weather</li><section class="weather-section">
+        <div class="page">
+          <h1>LATEST WEATHER</h1>
+          <div class="archive">
+            <article class="article">
+              <section id="stats">
+                <div class="summary">
+                  <h2>Weather summary</h2>
+                  <h3 id="five-city"></h3>
+                  <p>Currently: <span id="current-desc"></span></p>
+                  <p>
+                    Tempature:
+                    <span id="current-temp"></span> °F
+                  </p>
+                  <p>Wind Chill: <span id="current-windChill"></span> °F</p>
+                  <p>Humidity: <span id="current-humid"></span>%</p>
+                  <p>Wind Speed: <span id="current-windSpeed"></span> mph</p>
+                </div>
+              </section>
+              <div>
+                <img src="./images/Umbrella.jpg" alt="rain on Umbrella" height="100" width="100">
+              </div>
+            </article>
+        <li style="float: right">About</li>
       </ul>
     </nav>
-    <main></main>
+    <main>
+      <div class="flex-col">
+        <img src="./images/overcast.jpg" alt="Clouds" height="100" width="100">
+        <span id="Monday" class="col-head"></span>
+        <img id="weatherIcon1" class="weatherIcon" />
+        <span class="temp-data"> <p>Temperature</p>
+          <span id="data1"></span> <span>°F</span>
+        </span>
+      </div>
+      <div class="flex-col">
+        <img src="./images/partlyCloudy.jpg" alt="Clouds" height="100" width="100">
+        <span id="Tuesday" class="col-head"></span>
+        <img id="weatherIcon2" class="weatherIcon" />
+        <span class="temp-data"> <p>Temperature</p>
+          <span id="data2"></span> <span>°F</span>
+        </span>
+      </div>
+      <div class="flex-col">
+        <img src="./images/Sunny.jpg" alt="Clouds" height="100" width="100">
+        <span id="Wednesday" class="col-head"></span>
+        <img id="weatherIcon3" class="weatherIcon" />
+        <span class="temp-data"> <p>Temperature</p>
+          <span id="data3"></span> <span>°F</span>
+        </span>
+      </div>
+      <div class="flex-col">
+        <img src="./images/Windy.jpg"" alt=" Clouds" height="100" width="100">
+        <span id="Thursday" class="col-head"></span>
+        <img id="weatherIcon4" class="weatherIcon" />
+        <span class="temp-data"> <p>Temperature</p>
+          <span id="data4"></span> <span>°F</span>
+        </span>
+      </div>
+      <div class="flex-col">
+        <img src="./images/snowy.jpg" alt="Clouds" height="100" width="100">
+        <span id="Friday" class="col-head"></span>
+        <img id="weatherIcon5" class="weatherIcon" />
+        <span class="temp-data"> <p>Temperature</p>
+          <span id="data5"></span> <span>°F</span>
+        </span>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
